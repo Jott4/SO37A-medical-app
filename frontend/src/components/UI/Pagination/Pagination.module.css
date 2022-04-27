@@ -1,0 +1,48 @@
+.Bar {
+  margin-top: 10px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.PageBox {
+  background-color: rgb(56, 116, 206);
+  color: #FFF;
+  text-shadow: 1px 0px 0px rgb(116, 116, 116);
+  cursor: pointer;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 2px;
+  font-size: 15px;
+  transition: .5s;
+}
+
+.PageBox:hover {
+  background-color: rgb(40, 98, 185);
+}
+
+.Active {
+  transition: .6s;
+  background-color: #FFF;
+  border: 1px solid rgb(56, 116, 206);
+  color: rgb(56, 116, 206);
+  text-shadow: 1px 0px 0px rgb(230, 231, 231);
+}
+
+.Active:hover {
+  background-color: #FFF;
+}
+
+.Chevron {
+  background-color: rgb(37, 89, 167);
+}
+
+.PageBox svg {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  padding: 0;
+}
